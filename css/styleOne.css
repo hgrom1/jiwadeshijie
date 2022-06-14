@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+ul
+	{
+		display: block;
+		margin:0;
+		padding:0;
+		position:fixed;
+		overflow: hidden;
+		top:0;
+		width:2000px;
+		background-color:#E9DA9F;
+		margin-left: -25px;
+		
+	 }
+li
+	{
+		display: inline-block;
+		list-style: none;
+		margin-right:20px;
+		margin-top:6px;
+		margin-bottom:6px
+	}
+a{
+		display: block;
+		color:white;
+		text-align: center;
+		padding:0px 15px;
+		text-decoration: none;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left:110px;
+		font-family: YouYuan;
+  }/*导航字样式*/
+li a:hover:not(.active) {
+							background-color:#D7B58C;
+						}/*点击变色*/
+
+.active {
+			background-color:#D7B58C;
+		}
+.partOne{padding:15px;}/*标题部分*/
+h2{text-align: center;font-family:SimSun;font-size:40px;}/*标题样式*/
+.firstWord{font-size:40px;font-family:黑体;color:#EA9899;font-weight:bold;}/*出字样式*/
+section {
+    		height:100vh;
+    		background: rgba(0, 0, 0, .7);
+			color: #fff;
+    		line-height: 100vh;
+    		font-size: 10vh;
+			font-family:黑体;
+		}/*滚动时差板块样式*/
+
+.g-img1 {
+    		background-image: url(../images/bg/one.jpg);
+    		background-attachment: fixed;
+    		background-size: cover;
+    		background-position: center center;
+		}/*滚动时差背景图一*/
+
+.g-img2 {
+    		background-image: url(../images/bg/two.png);
+   			background-attachment: fixed;
+    		background-size: cover;
+    		background-position: center center;
+		}/*滚动时差背景图二*/
+
+.g-img3 {
+    		background-image: url(../images/bg/three.jpg);
+    		background-attachment: fixed;
+    		background-size: cover;
+    		background-position: center center;
+		}/*滚动时差背景图三*/
+.g-word{color:black;font-size:25px;line-height:36px;background-color:white;font-family:STKaiti;}/*滚动时差除背景上的文字样式*/
+.g-wordTwo{background-color: white;margin-bottom:280px;}/*鸡娃部分*/
+.articleOne{padding-left:170px;padding-right:170px;margin-top:-18px}/*小舍得第一段*/
+.articleTwo{padding-left:170px;padding-right:170px;margin-top:20px;}/*小舍得第二段*/
+.articleThree{padding-left:170px;padding-right:170px;;}/*小舍得第三段*/
+.articleFour{padding-left:170px;padding-right:170px;padding-top:20px;}/*小舍得第四段*/
+.partTwo{padding-top:30px}/*小舍得部分文字位置*/
+.pictureOne{margin-left:90px;margin-top:-20px;}/*插图二*/
+.pictureTwo{margin-left:250px;margin-top:20px;}/*插图三*/
+.articleFive{color:black;font-size: 25px;line-height: 36px;font-family: STKaiti;margin-top:-300px;padding-left:170px;padding-right:170px;}/*鸡的种类*/
+.articleSix{color:black;font-size: 25px;line-height: 36px;font-family: STKaiti;margin-top:-200px;padding-left:170px;padding-right:170px;}/*娃的种类*/
+.partThree{margin-top:100px;}
+.column{
+			 float: left;
+			 width: 50%;
+		}/* 创建并排的两个相等的列 */
+
+.row:after {
+				content: "";
+				display: table;
+				clear: both;
+			}/* 清除列之后的浮动 */
+.pictureFour{margin-left:100px;}
+.partFour{margin-top:100px;padding-left:30px;padding-right:30px;}
+.articleSeven{font-size:25px;line-height: 36px;text-indent:48px;}
+h1{margin-left:80px;}
+.boxOne{
+			border:2px solid black;
+			border-radius:5px;
+			border-style: dashed;
+			padding:5px;
+			margin:0 auto;
+			width:500px;
+			overflow: hidden;
+			margin-top:20px;
+			padding-left:20px;
+		 }/*圆角边框样式*/
+.introduceWord{font-family: SimHei;font-size:20px;}/*引入部分文字的样式*/
+.introducePart{margin-top:25px;margin-bottom:20px;padding-left:170px;padding-right:170px;}/*虚线边框下文字部分位置*/
+.introduceArticle{color:black;font-size:25px;line-height:36px;background-color:white;font-family:STKaiti;margin-top:20px;}/*虚线边框下文字二样式*/
+.photo{text-align:center;}/*首插画位置*/
+.photoEight{margin-left:-220px;}/*回到顶部图标位置*/
+hr{border-width:0;height:1.5px;width:95%;background-color:#E6E6E6;}
+.bottomPart{text-align:center;font-family:Times New Roman;}

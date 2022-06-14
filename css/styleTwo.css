@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+ 	 box-sizing: border-box;
+	}
+.ulOne
+		{
+			display: block;
+			margin:0;
+			padding:0;
+			position:fixed;
+			overflow: hidden;
+			top:0;
+			width:2000px;
+			background-color:#E9DA9F;
+			margin-left: -25px;
+
+		 }
+.liOne
+		{
+			display: inline-block;
+			list-style: none;
+			margin-right:20px;
+			margin-top:6px;
+			margin-bottom:6px
+		}
+a{
+		display: block;
+		color:white;
+		text-align: center;
+		padding:0px 15px;
+		text-decoration: none;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left:110px;
+		font-family: YouYuan;
+  }
+.liOne a:hover:not(.active) {
+								background-color:#D7B58C;
+							}
+
+.active {
+			background-color:#D7B58C;
+		}
+body {
+  		height: 100%;
+  		width: 100%;
+  		margin: 0;
+		padding: 0;
+		}
+
+body {
+		  font-family: Arial;
+		  padding: 10px;
+		  background: #f1f1f1;
+		}
+
+/* 页眉/Blog 标题 */
+.header {
+		  padding: 30px;
+		  text-align: center;
+		  background: white;
+		}
+/* 创建两个不相等的彼此并排的浮动列 */
+/* 左列 */
+.leftcolumn {   
+			  float: left;
+			  width: 60%;
+			}
+
+/* 右列 */
+.rightcolumn {
+				  float: left;
+				  width: 40%;
+				  background-color: #f1f1f1;
+				  padding-left: 20px;
+				}
+
+/* 伪图像 */
+.fakeimg {
+			  background-color:antiquewhite;
+			  width:90%;
+			  padding:20px;
+				margin-left:30px;
+			}
+
+/* 为文章添加卡片效果 */
+.card {
+		  background-color: white;
+		  padding: 20px;
+		  margin-top: 20px;
+		}
+
+/* 清除列之后的浮动 */
+.row:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+h2{text-align: center;font-family:SimSun;font-size:40px;}
+		.pictureOne{margin-left:20px;}
+.firstText{font-family:STKaiti; font-size:18px;text-indent:35px;}
+.pictureTwo{margin-left:20px;margin-top:5px;}
+h5{text-align: center;}
+.button {
+		  display: inline-block;
+		  padding: 15px 25px;
+		  font-size: 24px;
+		  cursor: pointer;
+		  text-align:center;
+		  text-decoration: none;
+		  outline: none;
+		  color: #fff;
+		  background-color:antiquewhite;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #999;
+		margin-left:-20px;
+		}/*问卷调查按钮样式*/
+.button:hover {background-color:#FFB1B3;}/*按钮点变色*/
+
+.button:active {
+				  background-color:#FFB1B3;
+				  box-shadow: 0 5px #666;
+				  transform: translateY(4px);
+				}/*按钮点击变色*/
+.style{margin-left:1px;font-family:SimSun;color:black;font-size:20px;}
+.photoEight{margin-top:20px;}
+hr{border-width:0;height:1.5px;width:95%;background-color:#E6E6E6;}
+.bottomPart{text-align:center;font-family:Times New Roman;}

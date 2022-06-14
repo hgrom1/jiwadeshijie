@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<title>问卷调查</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<!--正文-->
+<body>
+	<div class="index">
+			<h1>“鸡娃”现象调查问卷</h1>
+			<hr>
+			<form method="post" action="URL">
+				<ol>
+					<li>您的教育程度是？</li>
+					<label><input type="radio" name="education" value="1" required />&nbsp;&nbsp;高中&nbsp;&nbsp; </label>
+					<label><input type="radio" name="education" value="2" />&nbsp;&nbsp;大专&nbsp;&nbsp; </label>
+					<label><input type="radio" name="education" value="3" />&nbsp;&nbsp;本科&nbsp;&nbsp; </label>
+					<label><input type="radio" name="education" value="4" />&nbsp;&nbsp;硕士研究生&nbsp;&nbsp; </label>
+					<label><input type="radio" name="education" value="5" />&nbsp;&nbsp;博士及以上 </label>
+					<li>您的年龄段是？</li>
+					<label><input type="radio" name="age" value="1" required />&nbsp;&nbsp;18岁以下&nbsp;&nbsp; </label>
+					<label><input type="radio" name="age" value="2" />&nbsp;&nbsp;18-25岁&nbsp;&nbsp; </label>
+					<label><input type="radio" name="age" value="3" />&nbsp;&nbsp;26-30岁&nbsp;&nbsp; </label>
+					<label><input type="radio" name="age" value="4" />&nbsp;&nbsp;31-35岁&nbsp;&nbsp; </label>
+					<label><input type="radio" name="age" value="5" />&nbsp;&nbsp;35岁以上 </label>
+					<li>您是否听说过“鸡娃”现象？</li>
+					<label><input type="radio" name="use" value="1" required />&nbsp;&nbsp;从未听说过&nbsp;&nbsp; </label>
+					<label><input type="radio" name="use" value="2" />&nbsp;&nbsp;听说过，但未了解过&nbsp;&nbsp; </label>
+					<label><input type="radio" name="use" value="3" />&nbsp;&nbsp;有了解&nbsp;&nbsp; </label>
+					<label><input type="radio" name="use" value="4" />&nbsp;&nbsp;很熟悉&nbsp;&nbsp; </label>
+					<li>您觉得孩子需要什么样的教育？（可多选）</li>
+					<label><input type="checkbox" name="how" value="1" />&nbsp;&nbsp;父母的陪伴</label><br />
+					<label><input type="checkbox" name="how" value="2" />&nbsp;&nbsp;老师、学校的教育</label><br />
+					<label><input type="checkbox" name="how" value="3" />&nbsp;&nbsp;课外补习机构</label><br />
+					<label><input type="checkbox" name="how" value="4" />&nbsp;&nbsp;兴趣爱好培训班</label><br />
+					<label><input type="checkbox" name="how" value="5" />&nbsp;&nbsp;“一对一”私教</label><br />
+					<label><input type="checkbox" name="how" value="6" />&nbsp;&nbsp;拥有学区房</label><br />
+					<label><input type="checkbox" name="how" value="7" />&nbsp;&nbsp;以上均不感兴趣</label><br />
+				</ol>
+				&nbsp;&nbsp;&nbsp;您的姓名&nbsp;&nbsp;<input type="text" name="username" required />
+				&nbsp;&nbsp;您的职业&nbsp;&nbsp;<input type="text" name="occupation" required />
+				&nbsp;&nbsp;联系电话&nbsp;&nbsp;<input type="tel" name="tele" required />
+				<br />
+				<button id="btn" type="submit">提交问卷</button>
+				
+			</form>
+		<p class="container">提交不了？<a href="https://www.wenjuan.com/s/UZBZJvyCZGg/#《“鸡娃现象”问卷调查》，快来参与吧。【问卷网提供支持】" onclick="Form();">点击这里</a></p>
+		</div>
+</body>
+</html>

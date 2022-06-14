@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+		.ulOne
+				{
+					display: block;
+					margin:0;
+					padding:0;
+					position:fixed;
+					overflow: hidden;
+					top:0;
+					width:2000px;
+					background-color:#E9DA9F;
+					margin-left: -25px;
+
+				 }
+		.liOne
+			{
+				display: inline-block;
+				list-style: none;
+				margin-right:20px;
+				margin-top:6px;
+				margin-bottom:6px
+			}
+		a{
+				display: block;
+				color:white;
+				text-align: center;
+				padding:0px 15px;
+				text-decoration: none;
+				font-size: 20px;
+				font-weight: bold;
+				margin-left:110px;
+				font-family: YouYuan;
+		  }
+		.liOne a:hover:not(.active) {
+										background-color:#D7B58C;
+									}
+
+		.active {
+					background-color:#D7B58C;
+				}
+		.firstTitle{
+						text-align: center;
+						 color: black;
+						padding: 15px;
+					}
+		h2{text-align:center;font-family:SimSun;font-size:40px; }
+		.secondTitle{
+						font-size:32px;
+						font-family:SimHei;
+						margin-left:40px;
+						padding-top:20px;
+					}
+		.thirdTitle{
+						text-align: center;
+						font-size:30px;
+						color: #454215;
+						font-family:SimHei
+				
+					}
+		.right{
+				   margin-right: 100px;
+				   margin-top: -420px;
+				   float: right;
+				
+				}
+		.left{
+				  background-color:#E5DF44;
+				  height: 400px;
+				  width: 600px;
+				  margin-right:110px;
+				  margin-left: 40px;
+				  margin-bottom: 20px;
+				}
+		.textOne{
+						 font-size: 18px;
+						 text-indent: 2em;
+						 margin: 0
+				}
+		.nav-wrap{ 
+						  height:300px;
+						  width:800px;
+						  overflow: hidden;
+						  border: 3px solid #007979;
+						  margin: 10px auto;
+				}/*滚动条设置*/
+		.nav-ul{
+					height:100%;
+					width: 1000px;
+					overflow-y: auto;
+					overflow-x: hidden;
+				}
+		.nav-li{
+			    border: 1px solid #007979;
+				margin: -1px;
+				height: 40px;
+				line-height: 40px;
+				text-align:left;
+				width: 800px;
+				font-family:STKaiti;
+				font-size:18px;
+		}
+		/*.setBackground{
+					   background: url(鸡娃3.jpg)  no-repeat;
+					   margin-left:200px;
+					   filter:alpha(opacity=50);
+					   opacity:0.7;
+						width:100%;
+						height:100%;
+						background-size: 100% 100%;
+		}*/
+		.setBackground{background-image:url(../images/pic/fourthThree.jpg);filter:alpha(opacity=50);background-size: 100% 100%;}
+		.pictureOne{margin-left:120px;}
+		.twoColumn{
+					  float: left;
+					  width:45%;
+					  padding: 15px;
+					}/* 创建并排的两个相等的列 */
+
+		.row:after {
+						  content: "";
+						  display: table;
+						  clear: both;
+					}/* 清除列之后的浮动 */
+		.boxOne{
+				border-left: #E9EBA2 5px solid;
+				border-right: #E9EBA2 5px solid;
+				
+				}
+		.borderStyle{	
+						border:2px solid black;
+						border-radius:5px;
+						border-style: dashed;
+						padding-right:100px;
+						margin:0 auto;
+						width:1200px;
+						overflow: hidden;
+						height:950px;
+					}
+		.photo{text-align: center;}
+		.containerOne{
+						width:320px;
+						height:450px;
+						background-image:url(../images/pic/fourthOne.png);
+						background-size:cover;
+
+					}
+
+		.containerOne div{
+
+							display:none;/*默认隐藏*/
+
+							}
+
+		.containerOne:hover div{
+
+									display:initial;/*当鼠标hover时展示*/
+
+									}
+		.articleOne{text-indent:20px;font-family:方正粗黑宋简体;color:black;padding-top:100px;padding-left:90px;padding-right:20px;}
+		* {
+			  box-sizing: border-box;
+			}
+
+		.img-container {
+						  float: left;
+						  width: 33.33%;
+						  padding: 5px;
+						}
+
+		.clearfix::after {
+							  content: "";
+							  clear: both;
+							  display: table;
+							}
+		.clearfix{margin-left:60px;}
+		.bigBox{background-color:antiquewhite;background-size:100% 100%;background-attachment:fixed;padding-bottom:50px;}
+		hr{border-width: 0;background-color:#C9C1C1;width:95%;height:2px;}
+		.boxThree{margin-top:60px;}
+		.articleTwo{font-family:STKaiti; font-size:20px;text-indent:35px;}
+		.partOne{margin-left:90px;margin-top:20px;}
+		.articleThree{font-family:方正粗黑宋简体;margin-left:40px;}
+		.articleFour{font-family:STKaiti;font-size:18px;padding-left:30px;padding-right: 30px;text-indent:35px;}
+		.boxTwo{margin-left:60px;}
+		.photoEight{margin-left: -120px;margin-top:20px;}
+		.underlineTwo{border-width:0;height:1.5px;width:95%;background-color:#E6E6E6;}
+		.bottomPart{text-align:center;font-family:Times New Roman;}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+/*调查问卷*/
+		.container{
+				background-color:cadetblue;
+				padding:10px;
+			}
+			.index{
+				margin: auto;
+				width:920px;
+				background-color:aliceblue;
+				box-shadow:10px 10px 15px black;
+				margin-top:10px;
+			}
+		    h1{
+				color:black;
+				padding-top:20px;
+				text-align:center;
+				font-family:YouYuan;
+			}
+			.form{
+				padding-left: 100px;
+				line-height:180%;
+			}
+			.input{
+				border-color: black;
+				border-top-width:0px;
+				border-right-width:0px;
+				border-bottom-width:2px;
+				border-left-width:0px;
+			}
+			#btn{
+				background-color:aliceblue;
+				color:cadetblue;
+				border-radius:8px;
+				font-family:YouYuan;
+				font-size:20px;
+				margin-left:350px;
+				margin-top:20px;
+				padding:6px 15px
+			}
+			hr{border-width:0;height:2.5px;width:97%;background-color:#E9E9E9;}
+

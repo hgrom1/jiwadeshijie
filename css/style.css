@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color: #ECDE9F;}
+/*.drag{ position: absolute; left:40%; top:30%;width:200px; height:200px; text-align: center; background: inherit; z-index:11; box-shadow: 0 0 10px 6px rgba(0,0,0,.5); }*/
+/*.column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+/* 清除列之后的浮动 */
+/*.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+.img-container{
+				  float: left;
+				  width:20%;
+				  padding:5px;
+				  margin-left:10px;
+				  transform:scale(0.9);
+			   	  transition-duration: 0.5s;
+				}/*四个图标*/
+.img-container:hover{transform:scale(1.0);}/*四个图标放大突出*/
+.clearfix::after {
+				  content: "";
+				  clear: both;
+				  display: table;
+				 }/*伪元素分成四等分*/
+.imgStyle{box-shadow:5px 3px 10px grey;}/*图标阴影*/
+.container{
+			margin-top:55px;
+		  	margin-left:150px;
+		   }/*整体图标*/
+.mainTitle{
+		   margin-top:55px;
+		   margin-left:320px;
+		  }/*标题*/
+
